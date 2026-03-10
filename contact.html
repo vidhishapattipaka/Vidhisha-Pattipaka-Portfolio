@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Vidhisha Pattipaka<span>.</span></h1>
+
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+
+      <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container section">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-box fade-up">
+      <p><strong>Name:</strong> Vidhisha Pattipaka</p>
+      <p><strong>Email:</strong> vidhishapattipaka03@gmail.com</p>
+      <p><strong>Phone:</strong> 9930622199</p>
+      <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+      <p><strong>GitHub:</strong> github.com/vidhishapattipaka</p>
+    </div>
+
+    <form class="contact-form fade-up delay" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Vidhisha Pattipaka | Portfolio Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
